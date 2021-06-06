@@ -15,3 +15,8 @@ $share = Stock::getByTag('TSLA');
 echo $share->dayHigh;
 echo $share->dayLow;
 ```
+
+## TODO
+Weitere Datenfelder einbinden:
+* History
+* Empfehlungs-Trends / Bewertungen

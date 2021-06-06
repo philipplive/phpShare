@@ -123,7 +123,7 @@ class Stock {
 	}
 
 	/**
-	 * @param string $tag
+	 * @param string $tag Kürzel, .z.B. "BAS.DE" = BASF gehandelt auf XETRA, "BTC-USD" oder "BTC-EUR" = Bitcoin in USD oder EUR... Die Kürzel können von Yahoo! übernommen werden.
 	 * @return self
 	 */
 	public static function getByTag(string $tag) : self {
