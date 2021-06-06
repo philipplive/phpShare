@@ -1,6 +1,6 @@
 <?php
 
-class Share {
+class Stock {
 	/**
 	 * Daten
 	 */
